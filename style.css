@@ -12,8 +12,8 @@ body {
 }
 
 .a4 {
-  width: 794px;
-  height: 1123px;
+  width: 210mm;
+  height: 297mm;
   border: 2px black solid;
   margin: 0 auto;
 }
@@ -21,13 +21,13 @@ body {
 .sidebar {
   width: 250px;
   height: 100%;
-  background-color: #081b29;
+  background-color: rgb(0, 102, 102);
   float: right;
 }
 
 .profile-img {
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   margin: 20px auto;
   display: block;
@@ -39,18 +39,45 @@ body {
 
 .title {
   font-size: 35px;
-  margin: 60px 0 0 25px;
+  margin: 40px 0 0 25px;
 }
 
 .subtitle {
   font-size: 20px;
-  margin: 0px 0 0 25px;
+  margin-left: 25px;
   color: cornflowerblue;
 }
 
 .information {
-  margin: 10px 0 0 25px;
+  margin-left: 25px;
   font-family: "Montserrat", sans-serif;
+}
+
+.information .contact-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.information .contact-list li {
+  margin-right: 20px;
+}
+
+.information .contact-list li a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.information .contact-list li a i {
+  margin-right: 5px;
+}
+
+.information .contact-list li a:hover {
+  color: blue;
 }
 
 .bx {
@@ -76,7 +103,6 @@ body {
   width: 460px;
   text-align: justify;
   font-size: 12px;
-  margin-bottom: 5px;
 }
 
 .experience {
@@ -96,7 +122,6 @@ body {
   width: 460px;
   text-align: justify;
   font-size: 12px;
-  margin-bottom: 5px;
 }
 
 .education {
@@ -109,5 +134,86 @@ body {
 
 .education-date {
   font-size: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+}
+
+.line-sidebar {
+  height: 1px;
+  width: 200px;
+  background-color: white;
+  margin: 15px 0 15px 0;
+}
+
+.skills {
+  margin: 12px 0 0 25px;
+  color: white;
+}
+
+.language {
+  margin: 12px 0 0 25px;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .a4 {
+    width: 100%;
+    border: none;
+  }
+
+  .sidebar {
+    width: 100%;
+    float: none;
+    padding-bottom: 20px; /* Ajuste opcional */
+  }
+
+  .profile-img {
+    margin: 20px auto;
+  }
+
+  .sidebar-title {
+    margin: 20px 0 0 0;
+  }
+
+  .title {
+    margin: 20px 0 0 0;
+    text-align: center;
+  }
+
+  .subtitle {
+    margin: 5px 0 0 0;
+    text-align: center;
+  }
+
+  .information {
+    margin: 20px 0 0 0;
+  }
+
+  .information .contact-list li {
+    margin-right: 10px;
+  }
+
+  .line {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .summary,
+  .experience,
+  .education,
+  .skills,
+  .language {
+    margin: 20px 0 0 0;
+  }
+
+  .skills-item,
+  .language-item {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .skills-title,
+  .education-title,
+  .experience-title {
+    width: 50%;
+  }
 }
