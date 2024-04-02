@@ -9,13 +9,16 @@
 
 body {
   color: black;
+  background-color: #8b8b8b;
 }
 
 .a4 {
   width: 210mm;
   height: 297mm;
-  border: 2px black solid;
+  border: 1px black solid;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);;
   margin: 0 auto;
+  background-color: white;
 }
 
 .sidebar {
