@@ -209,8 +209,6 @@ a .bx {
   background-color: cornflowerblue;
 }
 
-
-
 @media only screen and (max-width: 768px) {
   .a4 {
     width: 100%;
@@ -274,3 +272,4 @@ a .bx {
     width: 50%;
   }
 }
+
