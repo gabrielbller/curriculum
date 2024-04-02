@@ -1,4 +1,8 @@
 function openPrintDialog() {
+  alert(
+    "Please ensure 'Print Background Colors and Images' option is enabled in the print dialog."
+  );
+
   window.print();
 }
 
