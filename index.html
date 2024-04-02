@@ -15,7 +15,7 @@
             <img class="profile-img" src="images/profile.jpeg" alt="Profile Picture">
 
             <div class="links">
-                <h2 class="title-body">REDES SOCIAIS</h2>
+                <h2 class="title-body translate" data-pt="REDES SOCIAIS" data-en="SOCIAL MIDIA">REDES SOCIAIS</h2>
                 <div class="line-sidebar"></div>
                 <a href="https://www.instagram.com/gabrielbller" target="_blank"><i class='bx bxl-instagram'></i></a>
                 <a href="https://github.com/gabrielbller" target="_blank"><i class='bx bxl-github'></i></a>
@@ -24,7 +24,7 @@
             </div>
 
             <div class="skills">
-                <h2 class="title-body">HABILIDADES</h2>
+                <h2 class="title-body translate" data-pt="HABILIDADES" data-en="SKILLS">HABILIDADES</h2>
                 <div class="line-sidebar"></div>
                 <div class="skills-item">
                     <h3 class="skills-title"><i class='bx bxl-html5'></i> HTML</h3>
@@ -43,18 +43,27 @@
             </div>
 
             <div class="language">
-                <h2 class="title-body">IDIOMAS</h2>
+                <h2 class="title-body translate" data-pt="IDIOMAS" data-en="LANGUAGES">IDIOMAS</h2>
                 <div class="line-sidebar"></div>
                 <div class="language-item">
-                    <h3 class="skills-title">PORTUGUÊS</h3>
-                    <h3 class="skills-title">INGLÊS</h3>
-                    <h3 class="skills-title">ESPANHOL</h3>
+                    <h3 class="translate" data-pt="PORTUGUÊS" data-en="PORTUGUESE">PORTUGUÊS</h3>
+                    <p class="language-text translate" data-pt="NATIVO" data-en="NATIVE">NATIVO</p>
+                    <h3 class="translate" data-pt="INGLÊS" data-en="ENGLISH">INGLÊS</h3>
+                    <p class="language-text translate" data-pt="AVANÇADO" data-en="ADVANCED">AVANÇADO</p>
+                    <h3 class="translate" data-pt="ESPANHOL" data-en="SPANISH">ESPANHOL</h3>
+                    <p class="language-text translate" data-pt="BÁSICO" data-en="BASIC">BÁSICO</p>
                 </div>
             </div>
+
+            <button class="button-pdf" onclick="openPrintDialog()">CRIAR PDF</button>
+            <button class="button-language" onclick="changeLanguage()">ENGLISH</button>
+
+
         </div>
 
         <h1 class="title">Gabriel Bodenmüller</h1>
-        <p class="subtitle">Engenheiro de Computação</p>
+        <p class="subtitle translate" data-pt="Engenheiro de Computação" data-en="Computer Engineer">Engenheiro de
+            Computação</p>
         <div class="information">
             <ul class="contact-list">
                 <li>
@@ -76,61 +85,75 @@
         </div>
 
         <div class="summary">
-            <h2 class="title-body">SOBRE MIM</h2>
+            <h2 class="title-body translate" data-pt="SOBRE MIM" data-en="ABOUT ME">SOBRE MIM</h2>
             <div class="line"></div>
-            <p class="summary-text">Sou um estudante de Engenharia de Computação no 9º período, com uma sólida base em
-                tecnologia da informação e experiência como assistente de TI e desenvolvimento Full Stack. Minha paixão
-                pela área de computação me levou a buscar conhecimentos avançados em hardware, software e sistemas de
-                computação.</p>
+            <p class="summary-text translate"
+                data-pt="Sou estudante de Engenharia de Computação no 9º período, com uma sólida base em tecnologia da informação e experiência como assistente de TI e desenvolvimento Full Stack. Minha paixão pela área de computação me levou a buscar conhecimentos avançados em hardware, software e sistemas de computação."
+                data-en="I am a Computer Engineering student in the 9th period, with a solid foundation in information technology and experience as an IT assistant and Full Stack development. My passion for computing led me to seek advanced knowledge in hardware, software and computing systems">
+                Sou estudante de Engenharia de Computação no 9º período, com uma sólida base em tecnologia da informação
+                e experiência como assistente de TI e desenvolvimento Full Stack. Minha paixão pela área de computação
+                me levou a buscar conhecimentos avançados em hardware, software e sistemas de computação.</p>
         </div>
 
         <div class="experience">
-            <h2 class="title-body">EXPERIÊNCIAS</h2>
+            <h2 class="title-body translate" data-pt="EXPERIÊNCIAS" data-en="EXPERIENCES">EXPERIÊNCIAS</h2>
             <div class="line"></div>
             <div class="experience-item">
-                <h3 class="experience-title">Assistente de TI</h3>
-                <p class="experience-company">Riomar Cordas, Itajaí</p>
-                <p class="experience-date">2021 - 2023</p>
-                <p class="experience-text">Durante meu tempo como assistente de TI, tive a oportunidade de trabalhar em
-                    uma
-                    variedade de projetos desafiadores, onde adquiri habilidades valiosas na resolução de problemas,
-                    manutenção de sistemas, suporte técnico e gerenciamento de redes. Além disso, pude aprimorar minha
-                    capacidade de trabalhar em equipe e comunicar soluções técnicas de forma clara e acessível.</p>
+                <h3 class="experience-title translate" data-pt="Bolsista - Allog {ENTER}"
+                    data-en="Scholarship - Allog {ENTER}">Bolsista - Allog {ENTER}</h3>
+                <p class="experience-company">Allog/UNIVALI</p>
+                <p class="experience-date">2023</p>
+                <p class="experience-text translate"
+                    data-pt="Aluno bolsista no curso do Projeto Allog {Enter} em parceria com a UNIVALI. O objetivo do projeto era capacitar profissionais em FULLSTACK para atender às demandas do mercado de trabalho, durante essa jornada, adquiri conhecimentos em diversas tecnologias, ferramentas e metodologias. Esses conhecimentos me possibilitaram desenvolver diversos projetos e, posteriormente, contribuir para a refatoração de um sistema dentro da empresa."
+                    data-en="Scholarship student on the Allog {Enter} Project course in partnership with UNIVALI. The objective of the project was to train professionals in FULLSTACK to meet the demands of the job market. During this journey, I acquired knowledge in various technologies, tools and methodologies. This knowledge allowed me to develop several projects and, later, contribute to the refactoring of a system within the company.">
+                    Aluno bolsista no curso do Projeto Allog {Enter} em parceria com a UNIVALI. O objetivo do projeto
+                    era capacitar profissionais em FULLSTACK para atender às demandas do mercado de trabalho, durante
+                    essa jornada, adquiri conhecimentos em diversas tecnologias, ferramentas e metodologias. Esses
+                    conhecimentos me possibilitaram desenvolver diversos projetos e, posteriormente, contribuir para a
+                    refatoração de um sistema dentro da empresa.</p>
             </div>
 
             <div class="experience-item">
-                <h3 class="experience-title">Bolsista - Allog {ENTER}</h3>
-                <p class="experience-company">Allog/UNIVALI</p>
-                <p class="experience-date">2023</p>
-                <p class="experience-text">Aluno bolsista no curso do Projeto Allog {Enter} em parceria com a UNIVALI.
-                    O objetivo do projeto é capacitar profissionais em FULLSTACK para atender às demandas do mercado de
-                    trabalho, durante essa jornada, adquiri conhecimentos em diversas tecnologias, ferramentas e
-                    metodologias. Esses conhecimentos me possibilitaram desenvolver diversos projetos e, posteriormente,
-                    contribuir para a refatoração de um sistema dentro da empresa.</p>
+                <h3 class="experience-title translate" data-pt="Assistente de TI" data-en="IT Assistant">Assistente de
+                    TI</h3>
+                <p class="experience-company">Riomar Cordas, Itajaí</p>
+                <p class="experience-date">2021 - 2023</p>
+                <p class="experience-text translate"
+                    data-pt="Como assistente de TI, tive a oportunidade de trabalhar em uma variedade de projetos desafiadores, onde adquiri habilidades valiosas na resolução de problemas, manutenção de sistemas, suporte técnico e gerenciamento de redes. Além disso, pude aprimorar minha capacidade de trabalhar em equipe e comunicar soluções técnicas de forma clara e acessível."
+                    data-en="As an IT assistant, I had the opportunity to work in a variety of challenging projects, where I gained valuable problem-solving skills, systems maintenance, technical support and network management. Furthermore, I was able to improve my ability to work in a team and communicate technical solutions in a clear and accessible way.">
+                    Como assistente de TI, tive a oportunidade de trabalhar em uma variedade de projetos desafiadores,
+                    onde adquiri habilidades valiosas na resolução de problemas, manutenção de sistemas, suporte técnico
+                    e gerenciamento de redes. Além disso, pude aprimorar minha capacidade de trabalhar em equipe e
+                    comunicar soluções técnicas de forma clara e acessível.</p>
             </div>
         </div>
 
         <div class="education">
-            <h2 class="title-body">EDUCAÇÃO</h2>
+            <h2 class="title-body translate" data-pt="EDUCAÇÃO" data-en="EDUCATION">EDUCAÇÃO</h2>
             <div class="line"></div>
             <div class="education-item">
-                <h3 class="education-title">Engenharia de Computação</h3>
+                <h3 class="education-title translate" data-pt="Engenharia de Computação" data-en="Computer engineering">
+                    Engenharia de Computação</h3>
                 <p class="education-company">Universidade do Vale do Itajaí - UNIVALI, Itajaí</p>
                 <p class="education-date">2020 - 2025</p>
             </div>
 
             <div class="education-item">
-                <h3 class="education-title">Curso de Inglês - Nivel Avançado</h3>
+                <h3 class="education-title translate" data-pt="Curso de Inglês - Nivel Avançado"
+                    data-en="English Course - Advanced Level">Curso de Inglês - Nivel Avançado</h3>
                 <p class="education-company">Wizard Idiomas</p>
                 <p class="education-date">2013 - 2019</p>
             </div>
 
             <div class="education-item">
-                <h3 class="education-title">Curso de Robótica</h3>
+                <h3 class="education-title translate" data-pt="Curso de Robótica" data-en="Robotics Course">Curso de
+                    Robótica</h3>
                 <p class="education-company">Lego Technoleader</p>
                 <p class="education-date">2012 - 2014</p>
             </div>
         </div>
+
+        <script src="createPDF.js"></script>
 </body>
 
 </html>

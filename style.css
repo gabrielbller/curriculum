@@ -50,9 +50,9 @@ body {
 }
 
 .links a {
-  color: white; 
-  font-size: 10px; 
-  transition: color 0.3s ease; 
+  color: white;
+  font-size: 10px;
+  transition: color 0.3s ease;
 }
 
 .links a:hover {
@@ -62,8 +62,6 @@ body {
 a .bx {
   font-size: 35px;
 }
-
-
 
 .title {
   font-size: 35px;
@@ -143,13 +141,14 @@ a .bx {
 
 .experience-date {
   font-size: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .experience-text {
   width: 460px;
   text-align: justify;
   font-size: 12px;
+  margin-bottom: 10px;
 }
 
 .education {
@@ -165,8 +164,6 @@ a .bx {
   margin-bottom: 5px;
 }
 
-
-
 .skills {
   margin: 12px 0 0 25px;
   color: white;
@@ -176,6 +173,43 @@ a .bx {
   margin: 12px 0 0 25px;
   color: white;
 }
+
+.language-text {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.button-pdf {
+  float: right;
+  margin: 30px 25px 0 0;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-pdf:hover {
+  background-color: cornflowerblue;
+}
+
+.button-language {
+  float: right;
+  margin: 10px 25px 0 0;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-language:hover {
+  background-color: cornflowerblue;
+}
+
+
 
 @media only screen and (max-width: 768px) {
   .a4 {
