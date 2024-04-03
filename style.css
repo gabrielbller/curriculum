@@ -10,6 +10,7 @@
 body {
   color: black;
   background-color: #8b8b8b;
+  height: 300mm;
 }
 
 .a4 {
@@ -17,7 +18,7 @@ body {
   height: 297mm;
   border: 1px black solid;
   box-shadow: 0 0 10px black;
-  margin: 0 auto;
+  margin: 10px auto;
   background-color: white;
 }
 
