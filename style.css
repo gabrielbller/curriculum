@@ -174,6 +174,35 @@ a .bx {
   color: white;
 }
 
+.barras {
+  background-color: #ccc;
+  display: block;
+  border-radius: 5px;
+  height: 5px;
+  width: 90%;
+  position: relative;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+  margin-bottom: 2px;
+}
+
+.barras > span {
+  height: 20px;
+  background: linear-gradient(to right, #3498db, #3498db);
+  position: absolute;
+  width: 80%;
+}
+
+.barras > span.js {
+  width: 60%;
+  animation: js 4s;
+}
+
+.barras > span.full {
+  width: 100%;
+  animation: full 4s;
+}
+
 .language {
   margin: 12px 0 0 25px;
   color: white;
@@ -186,10 +215,10 @@ a .bx {
 
 .button-pdf {
   float: right;
-  margin: 30px 25px 0 0;
+  margin: 20px 20px 0 0;
   background-color: white;
   color: black;
-  padding: 10px 20px;
+  padding: 5px 10px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -201,10 +230,10 @@ a .bx {
 
 .button-language {
   float: right;
-  margin: 10px 25px 0 0;
+  margin: 20px 20px 0 0;
   background-color: white;
   color: black;
-  padding: 10px 20px;
+  padding: 5px 10px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
